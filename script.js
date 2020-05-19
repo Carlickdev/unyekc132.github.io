@@ -1,6 +1,6 @@
 $(function(){
 	Audio.init();
-});
+}); 
 
 var intval;
 var autoplay;
