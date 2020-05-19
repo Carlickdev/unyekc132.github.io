@@ -63,7 +63,7 @@ var Audio = {
 				Audio.info.load(id,album,artist,title,albumart,mp3);
 				Audio.play($('.music'));
 				$('.music').prop('volume',$('.volume').val());
-				Audio.playlist.hide();
+				Audio.playlist.hide(); 
 			});
 		});
 		$('.play-pause').on('click',function(e){
